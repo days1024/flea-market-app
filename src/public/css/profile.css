@@ -1,0 +1,111 @@
+.profile-form {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1400px;
+}
+
+
+.profile-form__heading {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.profile-form__logo {
+    font-family: "Times New Roman", "Georgia", serif;
+    color: #1e1e1e;
+}
+
+.form {
+    margin: 0 auto;
+    padding: 0px 100px;
+    width: 80%;
+    background-color: #fff;
+}
+
+
+.form__group-title {
+    margin-top: 30px;
+}
+
+.form__label--item {
+    color: #1e1e1e;
+}
+
+.form__group-content {
+    width: 100%;
+}
+
+.form__input--text input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background: #f4f4f4;
+    color: #1e1e1e;
+}
+
+.form__button-image {
+    width: 20%;
+    height: 30px;
+    margin-left: 20px;
+    padding: 3px 20px;
+    color: #ff5555;
+    background-color: #ffffff;
+    border: solid 2px #ff5555;
+    font-size: 15px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.form__button-image input {
+    display: none;
+}
+
+
+.item {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+
+.form__button {
+    padding: 40px 0px;
+    text-align: center;
+
+}
+
+.form__button-register {
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 3px;
+    background: #ff5555;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form__error {
+    color: #ff0000 !important;
+    text-align: left;
+}
+
+.form__button button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #ff5555;
+    color: #fff;
+    margin: 30px 0px;
+    cursor: pointer;
+    font-size: 25px;
+}

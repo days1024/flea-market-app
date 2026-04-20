@@ -1,0 +1,232 @@
+.detail-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.detail-form__image {
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.detail-form__image img {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f5;
+}
+
+.detail-form__item {
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px 70px 0px 15px;
+}
+
+.item-name {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.item-brand {
+    font-size: 15px;
+    margin: 0px;
+}
+
+.item-price {
+    margin: 5px;
+}
+
+.item-price__symbol .item-price__tax {
+    font-size: 15px;
+}
+
+.item-price__value {
+    font-size: 25px;
+}
+
+.item-count {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    gap: 30px;
+
+}
+
+.item-like-button,
+.item-comment-logo {
+    border: none;
+    background-color: #ffffff;
+}
+
+
+.item-like-button img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.item-comment-logo img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    margin-left: 5px;
+
+}
+
+
+.item-like-count,
+.item-comment-count {
+    width: 40px;
+    height: 30px;
+    text-align: center;
+}
+
+.form__button {
+    width: 100%;
+
+}
+
+.form__button button,
+.form__item-comment button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #ff5555;
+    color: #fff;
+    margin: 30px 0px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.item-description span,
+.item-information__title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.category__label {
+    padding: 6px 14px;
+    border: none;
+    border-radius: 20px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    background-color: #d9d9d9;
+}
+
+.category__label.first-category {
+    margin-left: 0px;
+}
+
+.item-description__content {
+    margin: 30px 0px;
+}
+
+.item-catedory {
+    margin-top: 10px;
+}
+
+.item-condition {
+    margin-top: 20px;
+}
+
+.item-catedory__title,
+.item-condition__title {
+    font-weight: bold;
+}
+
+.item-catedory__content,
+.item-condition__content {
+    margin-left: 30px;
+}
+
+
+.item-comment {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.item-comment__title {
+    font-size: 25px;
+    color: #5f5f5f;
+
+}
+
+.item-comment__image {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.item-comment__image img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    display: block;
+    border-radius: 50%;
+}
+
+.item-comment__user {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.item-comment__content {
+    margin: 10px 0px;
+    width: 100%;
+    background-color: #e5e5e5;
+}
+
+.item-comment__content-text {
+    font-size: 20px;
+    padding: 10px 5px;
+}
+
+.item-comment__group {
+    width: 100%;
+    height: 180px;
+}
+
+.item-comment__group-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item-comment__group-text {
+    width: 100%;
+    height: 60px;
+}
+
+.item-comment__group-text textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: solid 1px #1e1e1e;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.form__item-comment {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.form__error {
+    color: #ff0000 !important;
+    text-align: left;
+}

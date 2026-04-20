@@ -1,0 +1,195 @@
+.search-form {
+    margin-left: 60px;
+    width: 30%;
+}
+
+.search-form input {
+    margin-right: 20px;
+    width: 100%;
+    height: 40px;
+}
+
+.form__button-logout {
+    margin-left: 100px;
+    width: 10%;
+}
+
+.form__button-logout button {
+    width: 100%;
+    height: 40px;
+    color: #ffffff;
+    background-color: #1e1e1e;
+    border: none;
+    font-size: 20px;
+}
+
+.form__button-sell {
+    margin-left: 20px;
+    width: 5%;
+}
+
+.form__button-sell button {
+    width: 100%;
+    height: 35px;
+    margin-top: 5px;
+    color: #1e1e1e;
+    background-color: #ffffff;
+    border: none;
+    font-size: 20px;
+}
+
+.form__button-mypage {
+    margin-left: 20px;
+    width: 10%;
+}
+
+.form__button-mypage button {
+    width: 100%;
+    height: 40px;
+    color: #ffffff;
+    background-color: #1e1e1e;
+    border: none;
+    font-size: 20px;
+}
+
+.sell-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1400px;
+}
+
+.sell-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+h2 {
+    margin: 30px 15px 5px 15px;
+    color: #696969;
+    border-bottom: solid 1px #696969;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__group {
+    margin: 30px 15px;
+}
+
+.form__label--item {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.category {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.category-checkbox {
+    display: none;
+}
+
+.category__label {
+    padding: 6px 14px;
+    border: 1px solid #ff5555;
+    border-radius: 20px;
+    color: #ff5555;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* 選択されたとき */
+input[type="checkbox"]:checked+.category__label {
+    background-color: #ff5555;
+    color: #fff;
+}
+
+.form__group-content {
+    width: 100%;
+}
+
+.form__group-image {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    border: solid 1px #1e1e1e;
+    padding-top: 35px;
+}
+
+.form__button-image {
+    width: 20%;
+    height: 30px;
+    margin-left: 20px;
+    padding: 3px 20px;
+    color: #ff5555;
+    background-color: #ffffff;
+    border: solid 2px #ff5555;
+    font-size: 15px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.form__button-image input {
+    display: none;
+}
+
+.form__input--text input {
+    width: 100%;
+    padding: 10px;
+    border: solid 1px #1e1e1e;
+    border-radius: 3px;
+    font-family: "Times New Roman", "Georgia", serif;
+    color: #1e1e1e;
+}
+
+.form__input--text select {
+    width: 100%;
+    padding: 10px;
+    border: solid 1px #1e1e1e;
+    border-radius: 3px;
+    font-family: "Times New Roman", "Georgia", serif;
+    color: #1e1e1e;
+}
+
+.form__input--text textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: solid 1px #1e1e1e;
+    border-radius: 3px;
+    font-family: "Times New Roman", "Georgia", serif;
+    color: #1e1e1e;
+}
+
+
+.form__button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.form__button button {
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 3px;
+    background: #ff5555;
+    color: #fff;
+    padding: 20px 0px;
+    margin: 30px 15px;
+    cursor: pointer;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
