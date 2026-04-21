@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use App\Models\User;
+use App\Models\Profile;
 
 
 class DatabaseSeeder extends Seeder
@@ -16,7 +17,9 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call(CategoriesTableSeeder::class);
-        User::factory(10)->create();
+        User::factory(10)
+        ->has(Profile::factory())
+        ->create();
         $this->call(ItemsTableSeeder::class);
 }
 }
