@@ -57,13 +57,13 @@
 
 ## テスト（PHPUnit）/Laravelのテストは以下のコマンドでまとめて実行できます。
 
-###手順1:Laravel本体（src配下）へ移動し、テスト用環境ファイルを作成してください。
+###　手順1:Laravel本体（src配下）へ移動し、テスト用環境ファイルを作成してください。
 -  cp .env.example .env.testing
-###手順2:env.testingの設定を変更してください
+###　手順2:env.testingの設定を変更してください
 - APP_KEY/DB設定/メール設定/stripe設定
-###手順3:テスト用データベースを作成してください
+###　手順3:テスト用データベースを作成してください
 - CREATE DATABASE laravel_test;
-###手順4:テストを実行してください
+###　手順4:テストを実行してください
 -  php artisan test
 
 
