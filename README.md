@@ -13,6 +13,21 @@
 - （または php artisan migrate:fresh --seed）
 - php artisan storage:link
 
+## Stripe設定
+
+以下のキーをStripe公式サイトから取得し、.envに設定してください。
+
+- STRIPE_KEY（pk_test_xxx）
+- STRIPE_SECRET（sk_test_xxx）
+
+※ 取得方法：Stripe Dashboard → Developers → API keys
+
+## メール設定
+
+以下を .env に設定してください
+
+MAIL_FROM_ADDRESS=your_email@example.com
+MAIL_FROM_NAME="Your App Name"
 
 ## 開発環境
 - 商品一覧画面(トップ画面): http://localhost/
@@ -41,7 +56,8 @@
 - ユーザー未認証の場合は商品一覧画面、商品詳細画面のみ入れるようなっております(いいね、コメント送信は登録後行えます)
 
 ## テスト（PHPUnit）/Laravelのテストは以下のコマンドでまとめて実行できます。
--   php artisan test
+-  手順1:cp .env.example .env.testing
+-  手順2:php artisan test
 
 
 # 使用技術
