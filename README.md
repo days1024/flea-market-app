@@ -26,8 +26,8 @@
 
 以下を .env に設定してください
 
-MAIL_FROM_ADDRESS=your_email@example.com
-MAIL_FROM_NAME="Your App Name"
+- MAIL_FROM_ADDRESS=your_email@example.com
+- MAIL_FROM_NAME="Your App Name"
 
 ## 開発環境
 - 商品一覧画面(トップ画面): http://localhost/
